@@ -1,0 +1,40 @@
+<!-- res/drawable/ic_logo.xml
+     Versão "tile" completa (fundo índigo + relógio), 96x96, para uso DENTRO do
+     app: header, splash, sobre, etc. Use com painterResource(R.drawable.ic_logo). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <!-- Tile índigo com cantos arredondados (raio 24) -->
+    <path
+        android:pathData="M24,0 h48 a24,24 0 0 1 24,24 v48 a24,24 0 0 1 -24,24 h-48 a24,24 0 0 1 -24,-24 v-48 a24,24 0 0 1 24,-24 z"
+        android:fillColor="#4F5BD5" />
+
+    <!-- Aro do relógio -->
+    <path
+        android:pathData="M22,48 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6" />
+
+    <!-- Marcadores de hora -->
+    <path
+        android:pathData="M48,26 L48,30 M70,48 L66,48 M26,48 L30,48"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round" />
+
+    <!-- Ponteiros formando o check discreto -->
+    <path
+        android:pathData="M37,40 L48,48 L62,33"
+        android:strokeColor="#34D399"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Hub central -->
+    <path
+        android:pathData="M45.5,48 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+        android:fillColor="#34D399" />
+</vector>

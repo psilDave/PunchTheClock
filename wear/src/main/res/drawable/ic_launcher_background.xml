@@ -1,0 +1,12 @@
+<!-- res/drawable/ic_launcher_background.xml
+     Camada de fundo do adaptive icon: índigo full-bleed (108x108).
+     Cantos arredondados são aplicados pela máscara do sistema. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:pathData="M0,0h108v108h-108z"
+        android:fillColor="#4F5BD5" />
+</vector>

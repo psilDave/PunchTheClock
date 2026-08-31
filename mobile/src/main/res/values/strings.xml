@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">PunchTheClock</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">Hello</string>
+    <string name="home_daily_summary">Daily Summary</string>
+    <string name="home_recorded">Recorded</string>
+    <string name="home_location_desc">Location</string>
+    <string name="home_current_location">Current Location</string>
+
+    <!-- History Screen -->
+    <string name="history_title">History</string>
+    <string name="history_subtitle">All records, grouped by day.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_profile">Profile</string>
+    <string name="settings_your_name">Your Name</string>
+    <string name="settings_reminders_title">Smartwatch Reminders</string>
+    <string name="settings_sync_button">Synchronize with the Smartwatch</string>
+    <string name="settings_edit_name">Edit Name</string>
+    <string name="settings_save">Save</string>
+    <string name="settings_cancel">Cancel</string>
+    <string name="settings_edit_reminder">Edit Reminder</string>
+    <string name="settings_reminder_name">Reminder Name</string>
+    <string name="settings_action_label">Action on the Clock</string>
+    <string name="settings_select_type">Select Type</string>
+    <string name="settings_remove_reminder">Remove Reminder</string>
+    <string name="settings_add_reminder">+ Add reminder</string>
+    <string name="settings_edit_icon_desc">Edit</string>
+    <string name="settings_new_reminder_default">New Reminder</string>
+    <string name="settings_sync_success">Synchronized with the watch!</string>
+
+    <!-- Days of Week -->
+    <string name="day_sunday_short">S</string>
+    <string name="day_monday_short">M</string>
+    <string name="day_tuesday_short">T</string>
+    <string name="day_wednesday_short">W</string>
+    <string name="day_thursday_short">T</string>
+    <string name="day_friday_short">F</string>
+    <string name="day_saturday_short">S</string>
+
+    <string name="days_all">All</string>
+    <string name="days_mon_to_fri">Mon to Fri</string>
+
+    <!-- Punch Types (Unified with Wear) -->
+    <string name="punch_type_clock_in">Clock In</string>
+    <string name="punch_type_lunch">Lunch</string>
+    <string name="punch_type_clock_out">Clock Out</string>
+    <string name="punch_type_other">Other</string>
+
+    <string name="home_no_punches_today">You haven\'t punched in today</string>
+    <string name="home_worked_today">You\'ve worked %s today</string>
+    <string name="history_today">Today</string>
+    <string name="history_yesterday">Yesterday</string>
+    <string name="history_date_format">MMMM dd, yyyy</string>
+    <string name="time_unit_hour_short">%1$dh %2$dm</string>
+    <string name="time_unit_minute_short">%1$dm</string>
+
+    <!-- Default Reminder Labels -->
+    <string name="reminder_label_clock_in">Clock In</string>
+    <string name="reminder_label_lunch_out">Lunch Out</string>
+    <string name="reminder_label_lunch_return">Lunch Return</string>
+    <string name="reminder_label_clock_out">Clock Out</string>
+
+    <!-- Punch Bottom Sheet -->
+    <string name="punch_bt_title">Punch Clock</string>
+    <string name="punch_bt_type_label">Punch Type</string>
+    <string name="punch_bt_confirm">Punch Clock</string>
+    <string name="punch_bt_manual">Manual Punch</string>
+    <string name="punch_bt_recorded">%s recorded</string>
+
+    <string name="default_user_name">User</string>
+</resources>

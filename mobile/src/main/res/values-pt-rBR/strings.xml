@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">PunchTheClock</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Início</string>
+    <string name="nav_history">Histórico</string>
+    <string name="nav_settings">Configurações</string>
+
+    <!-- Home Screen -->
+    <string name="home_hello">Olá</string>
+    <string name="home_daily_summary">Resumo Diário</string>
+    <string name="home_recorded">Registrado</string>
+    <string name="home_location_desc">Localização</string>
+    <string name="home_current_location">Localização atual</string>
+    <string name="home_no_punches_today">Você ainda não bateu o ponto hoje</string>
+    <string name="home_worked_today">Você trabalhou %s hoje</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Histórico</string>
+    <string name="history_subtitle">Todos os registros, agrupados por dia.</string>
+    <string name="history_today">Hoje</string>
+    <string name="history_yesterday">Ontem</string>
+    <string name="history_date_format">dd \'de\' MMMM, yyyy</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Configurações</string>
+    <string name="settings_profile">Perfil</string>
+    <string name="settings_your_name">Seu Nome</string>
+    <string name="settings_reminders_title">Lembretes no Smartwatch</string>
+    <string name="settings_sync_button">Sincronizar com o Relógio</string>
+    <string name="settings_edit_name">Editar Nome</string>
+    <string name="settings_save">Salvar</string>
+    <string name="settings_cancel">Cancelar</string>
+    <string name="settings_edit_reminder">Editar Lembrete</string>
+    <string name="settings_reminder_name">Nome do Lembrete</string>
+    <string name="settings_action_label">Ação no Ponto</string>
+    <string name="settings_select_type">Selecionar Tipo</string>
+    <string name="settings_remove_reminder">Remover Lembrete</string>
+    <string name="settings_add_reminder">+ Adicionar lembrete</string>
+    <string name="settings_edit_icon_desc">Editar</string>
+    <string name="settings_new_reminder_default">Novo Lembrete</string>
+    <string name="settings_sync_success">Sincronizado com o relógio!</string>
+
+    <!-- Days of Week -->
+    <string name="day_sunday_short">D</string>
+    <string name="day_monday_short">S</string>
+    <string name="day_tuesday_short">T</string>
+    <string name="day_wednesday_short">Q</string>
+    <string name="day_thursday_short">Q</string>
+    <string name="day_friday_short">S</string>
+    <string name="day_saturday_short">S</string>
+
+    <string name="days_all">Todos</string>
+    <string name="days_mon_to_fri">Seg a Sex</string>
+
+    <!-- Default Reminder Labels -->
+    <string name="reminder_label_clock_in">Entrada</string>
+    <string name="reminder_label_lunch_out">Saída Almoço</string>
+    <string name="reminder_label_lunch_return">Retorno Almoço</string>
+    <string name="reminder_label_clock_out">Saída</string>
+
+    <string name="default_user_name">Usuário</string>
+
+    <!-- Punch Types (Unified with Wear) -->
+    <string name="punch_type_clock_in">Entrada</string>
+    <string name="punch_type_lunch">Almoço</string>
+    <string name="punch_type_clock_out">Saída</string>
+    <string name="punch_type_other">Outro</string>
+
+    <!-- Time Units -->
+    <string name="time_unit_hour_short">%1$dh %2$dm</string>
+    <string name="time_unit_minute_short">%1$dm</string>
+
+    <!-- Punch Bottom Sheet -->
+    <string name="punch_bt_title">Bater ponto</string>
+    <string name="punch_bt_type_label">Tipo de marcação</string>
+    <string name="punch_bt_confirm">Bater Ponto</string>
+    <string name="punch_bt_manual">Bater Avulso</string>
+    <string name="punch_bt_recorded">%s registrada</string>
+</resources>

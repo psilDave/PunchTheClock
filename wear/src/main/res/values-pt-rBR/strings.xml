@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">PunchTheClock</string>
+    <string name="hello_world">Olá, %1$s!</string>
+
+    <!-- Punch Types -->
+    <string name="punch_type_clock_in">Entrada</string>
+    <string name="punch_type_lunch">Intervalo</string>
+    <string name="punch_type_clock_out">Saída</string>
+    <string name="punch_type_other">Outro</string>
+
+    <!-- Screen Titles and Labels -->
+    <string name="punch_type_selection_title">Tipo de Registro</string>
+    <string name="recorded_successfully">Registrado com sucesso</string>
+    <string name="getting_location">Obtendo localização…</string>
+    <string name="no_gps_signal">Sem sinal de GPS</string>
+    <string name="location_confirm_error">Não foi possível confirmar sua localização agora.</string>
+    <string name="save_offline">Salvar Offline</string>
+
+    <!-- Status Messages -->
+    <string name="next_action_pending">Próxima ação pendente</string>
+    <string name="status_updated">Atualizado</string>
+    <string name="status_saved_offline">Salvo Offline</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Alarmes Críticos de Ponto</string>
+    <string name="notification_channel_description">Canal para alarmes em tela cheia</string>
+    <string name="notification_title">Hora de bater o ponto!</string>
+    <string name="default_punch_label">Ponto</string>
+</resources>

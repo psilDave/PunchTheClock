@@ -1,0 +1,40 @@
+<!-- res/drawable/ic_launcher_foreground.xml
+     Camada de frente do adaptive icon (108x108).
+     A arte (96x96) é centralizada com translate 6,6 → fica dentro da
+     safe zone de 66dp, então nenhuma máscara (círculo/squircle) corta o relógio. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="6"
+        android:translateY="6">
+
+        <!-- Aro do relógio -->
+        <path
+            android:pathData="M22,48 a26,26 0 1,0 52,0 a26,26 0 1,0 -52,0"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="6" />
+
+        <!-- Marcadores de hora (12 · 3 · 9) -->
+        <path
+            android:pathData="M48,26 L48,30 M70,48 L66,48 M26,48 L30,48"
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="4"
+            android:strokeLineCap="round" />
+
+        <!-- Ponteiros (~10:08) formando o check discreto -->
+        <path
+            android:pathData="M37,40 L48,48 L62,33"
+            android:strokeColor="#34D399"
+            android:strokeWidth="5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round" />
+
+        <!-- Hub central -->
+        <path
+            android:pathData="M45.5,48 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0"
+            android:fillColor="#34D399" />
+    </group>
+</vector>

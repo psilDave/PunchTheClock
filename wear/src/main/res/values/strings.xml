@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">PunchTheClock</string>
+    <string name="hello_world">Hello, %1$s!</string>
+
+    <!-- Punch Types -->
+    <string name="punch_type_clock_in">Clock In</string>
+    <string name="punch_type_lunch">Lunch</string>
+    <string name="punch_type_clock_out">Clock Out</string>
+    <string name="punch_type_other">Other</string>
+
+    <!-- Screen Titles and Labels -->
+    <string name="punch_type_selection_title">Punch Type</string>
+    <string name="recorded_successfully">Recorded successfully</string>
+    <string name="getting_location">Getting location…</string>
+    <string name="no_gps_signal">No GPS signal</string>
+    <string name="location_confirm_error">Couldn\'t confirm your location right now.</string>
+    <string name="save_offline">Save Offline</string>
+
+    <!-- Status Messages -->
+    <string name="next_action_pending">Next action pending</string>
+    <string name="status_updated">Updated</string>
+    <string name="status_saved_offline">Saved Offline</string>
+    <string name="home_next_action_label">Next: %1$s</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Critical Punch Alarms</string>
+    <string name="notification_channel_description">Channel for full screen alarms</string>
+    <string name="notification_title">Time to punch clock!</string>
+    <string name="default_punch_label">Punch</string>
+    <string name="punch_notification_action">Punch Clock</string>
+</resources>

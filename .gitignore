@@ -1,15 +1,32 @@
+# Gradle files
+.gradle/
+build/
+/*/build/
+
+# Android Studio / IntelliJ IDEA
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.iws
+*.ipr
+/out/
+.artifacts/
+
+# Local configuration file (contains sensitive info)
 local.properties
+
+# Log files
+*.log
+
+# Android App Bundle / APKs
+*.apk
+*.apks
+*.aab
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Secrets (Add any other secret files here)
+# secrets.properties
+# *.jks
+# *.keystore
